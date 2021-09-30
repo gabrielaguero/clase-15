@@ -26,11 +26,6 @@ header{
     text-align: center;
 }
 
-section h3{
-    text-align: center;
-    font-size: 1em;
-    font-weight: 300;
-}
 
 .tabla{
     margin: 50px 10px;
@@ -46,9 +41,9 @@ section h3{
     padding: 5px 25px;;
 }
 
-footer p{
+footer div{
     text-align: center;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 footer ul li{
