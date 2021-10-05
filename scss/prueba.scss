@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+header{
+    height: 100px;
+    background-image: url(../multimedia/img/textiles-ropa-678x381-1.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover
+}
+
+.titulo-main{
+    color: #006de9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.titulo-secundario{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.tabla{
+    margin: 50px 10px;
+    padding: 25px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    background-color: #b4dafc;
+    padding: 5px 25px;;
+}
+
+footer{
+    div{
+        text-align: center;
+        font-weight: 300;
+    }
+}
+
+footer{
+    ul{
+        li{
+            list-style-type: none;
+        }
+    }
+}
+
+footer{
+    ul{
+        li{
+            a{
+                color: #5867f1;;
+            }
+        }
+    }
+}
+
+/*=====================*/
+/*--flexbox--*/
+/*=====================*/
+
+section{
+    div{
+        padding: 20px;
+    }
+}
+
+.conteiner-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 100px;
+
+    display: flex;
+    flex-flow: row nowrap ;
+    justify-content: left;
+    align-items: baseline;
+}
+
+/*=====================*/
+/*--GRID--*/
+/*=====================*/
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1, 1fr;
+    grid-template-columns: 1, auto;
+    grid-template-areas: 
+                        "header"
+                        "main"
+                        "section"
+                        "footer";
+}
+
+.header{
+    grid-area: header;
+}
+
+.principal {
+    grid-area: main;
+}
+
+.tabla{
+    grid-area: section;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+@media screen and (min-width: 375px) {
+
+.grid-container{
+        grid-template-columns: repeat(2, auto);
+        grid-template-areas:
+                            "header header"
+                            "main main"
+                            "section section"
+                            "footer footer";
+    }
+}
+
+
+ @media screen and (min-width: 768px) {
+
+    .grid-container{
+        grid-template-columns: repeat(3, auto);
+        grid-template-areas: 
+                            "header header header"
+                            "main main main"
+                            "section section section"
+                            "footer footer footer";
+    }
+}
+
+/*=====================*/
+/*--ANIMACIONES--*/
+/*=====================*/
+
+.subtitulo{
+    animation-name: promoción;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    
+}
+
+@keyframes promoción {
+    50% {
+          height: 50px;
+          background-color: rgb(243, 127, 127);
+    }
+
+    100%{
+          height: 100px;
+          background-color: rgb(243, 127, 127);
+    }
+    
+}
+
+.tabla tr:hover{
+    background-color: rgb(83, 75, 75);
+}
