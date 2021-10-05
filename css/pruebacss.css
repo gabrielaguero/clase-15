@@ -51,7 +51,7 @@ footer ul li a {
 section div {
   padding: 20px; }
 
-.conteiner-flex {
+.contenedor-flex {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
