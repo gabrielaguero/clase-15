@@ -24,7 +24,7 @@ header {
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
   font-weight: 700;
-  text-align: center; }
+  text-align: center;}
 
 .tabla {
   margin: 50px 10px;
@@ -74,7 +74,10 @@ section div {
   display: grid;
   grid-template-rows: 1, 1fr;
   grid-template-columns: 1, auto;
-  grid-template-areas: "header" "main" "section" "footer"; }
+  grid-template-areas: "header"
+ "main"
+ "section"
+ "footer"; }
 
 .header {
   grid-area: header; }
@@ -91,12 +94,18 @@ section div {
 @media screen and (min-width: 375px) {
   .grid-container {
     grid-template-columns: repeat(2, auto);
-    grid-template-areas: "header header" "main main" "section section" "footer footer"; } }
+    grid-template-areas: "header header"
+ "main main"
+ "section section"
+ "footer footer"; } }
 
 @media screen and (min-width: 768px) {
   .grid-container {
     grid-template-columns: repeat(3, auto);
-    grid-template-areas: "header header header" "main main main" "section section section" "footer footer footer"; } }
+    grid-template-areas: "header header header"
+ "main main main"
+ "section section section"
+ "footer footer footer"; } }
 
 /*=====================*/
 /*--ANIMACIONES--*/
