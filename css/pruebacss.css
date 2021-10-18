@@ -113,13 +113,13 @@ section div {
 
 @media screen and (min-width: 375px) {
   .grid-container {
-    grid-template-rows: repeat(5, 4fr);
+    grid-template-rows: repeat(5, 2fr);
     grid-template-columns: repeat(2, auto);
     grid-template-areas: "header header" "main main" "titular titular" "section section" "footer footer"; } }
 
 @media screen and (min-width: 768px) {
   .grid-container {
-    grid-template-rows: repeat(5, 4fr);
+    grid-template-rows: repeat(5, 2fr);
     grid-template-columns: repeat(3, auto);
     grid-template-areas: "header header header" "main main main" "titular titular titular" "section section section" "footer footer footer"; } }
 
