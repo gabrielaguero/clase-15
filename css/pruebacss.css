@@ -6,6 +6,13 @@
 body {
   background-color: #ff9b9b; }
 
+.navbar{
+display: flex;
+flex-flow: row nowrap;
+justify-content: left;
+text-align: left;
+}  
+
 header {
   height: 100px;
   background-image: url(../multimedia/img/textiles-ropa-678x381-1.jpg);
@@ -30,14 +37,14 @@ header {
   font-weight: 700;
   text-align: center;}
 
-  .contenedor-flex{
-    padding-top: 50px;
-  }
+.contenedor-flex{
+padding-top: 50px;
+}
 
-  section div p{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  }
+section div p{
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
 
 .tabla {
   margin: 50px 10px;
