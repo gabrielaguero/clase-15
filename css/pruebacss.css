@@ -117,19 +117,14 @@ section div {
     grid-template-areas: "header header" "main main" "titular titular" "section section" "footer footer"; }
     .grid-container .flex-container {
       display: flex;
-      flex-flow: column nowrap;
+      flex-flow: row nowrap;
       justify-content: center;
       align-items: center; } }
 
 @media screen and (min-width: 768px) {
   .grid-container {
     grid-template-columns: repeat(3, auto);
-    grid-template-areas: "header header header" "main main main" "titular titular titular" "section section section" "footer footer footer"; }
-    .grid-container .flex-container {
-      display: flex;
-      flex-flow: column nowrap;
-      justify-content: center;
-      align-items: center; } }
+    grid-template-areas: "header header header" "main main main" "titular titular titular" "section section section" "footer footer footer"; } }
 
 /*=====================*/
 /*--ANIMACIONES--*/
