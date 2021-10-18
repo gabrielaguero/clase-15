@@ -5,7 +5,7 @@
 
 body {
   background-color: #ff9b9b; }
- 
+
 header {
   height: 100px;
   background-image: url(../multimedia/img/textiles-ropa-678x381-1.jpg);
@@ -20,24 +20,22 @@ header {
   font-weight: 700;
   text-align: center; }
 
-  .contenedor-titulo{
-    height: 100px;
-  }
+.contenedor-titulo {
+  height: 100px; }
 
 .titulo-secundario {
+  height: 100px;
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
   font-weight: 700;
-  text-align: center;}
+  text-align: center; }
 
-.contenedor-flex{
-padding-top: 50px;
-}
+.contenedor-flex {
+  padding-top: 50px; }
 
-section div p{
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
-}
+section div p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; }
 
 .tabla {
   margin: 50px 10px;
@@ -73,12 +71,11 @@ section div {
   justify-content: center;
   align-items: center; }
 
-.flex-container{
+.flex-container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
-  align-items: baseline;
-}  
+  align-items: baseline; }
 
 .footer {
   height: 100px;
@@ -94,10 +91,7 @@ section div {
   display: grid;
   grid-template-rows: 1, 1fr;
   grid-template-columns: 1, auto;
-  grid-template-areas: "header"
- "main"
- "section"
- "footer"; }
+  grid-template-areas: "header" "main" "section" "footer"; }
 
 .header {
   grid-area: header; }
@@ -114,18 +108,12 @@ section div {
 @media screen and (min-width: 375px) {
   .grid-container {
     grid-template-columns: repeat(2, auto);
-    grid-template-areas: "header header"
- "main main"
- "section section"
- "footer footer"; } }
+    grid-template-areas: "header header" "main main" "section section" "footer footer"; } }
 
 @media screen and (min-width: 768px) {
   .grid-container {
     grid-template-columns: repeat(3, auto);
-    grid-template-areas: "header header header"
- "main main main"
- "section section section"
- "footer footer footer"; } }
+    grid-template-areas: "header header header" "main main main" "section section section" "footer footer footer"; } }
 
 /*=====================*/
 /*--ANIMACIONES--*/
