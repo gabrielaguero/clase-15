@@ -76,8 +76,8 @@ section div {
 
 .flex-container {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
   align-items: baseline; }
 
 .footer {
