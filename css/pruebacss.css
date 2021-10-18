@@ -140,3 +140,14 @@ section div {
 
 .tabla tr:hover {
   background-color: #ee6e6e; }
+
+.banner{
+width: 100px;
+height: 600px;
+animation: banner 10s infinite linear alternate;
+background-size: 100 px 100 px;
+position: relative;
+display: flex;
+justify-content: center;
+text-align: center;
+}
