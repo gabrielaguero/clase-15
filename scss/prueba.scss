@@ -28,16 +28,12 @@ header{
 
 .contenedor-titulo{
     height: 100px;
-  }
-
-.contenedor-titulo{
-    h2{
-        height: $alto;
-    }
 }
+
 
 .multimedia{
     padding-top: 100px;
+    z-index: 1;
 }
 
 .titulo-secundario{
