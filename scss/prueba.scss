@@ -10,13 +10,6 @@ body{
     background-color: $color;
 }
 
-.navbar{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: left;
-    text-align: left;
-}
-
 header{
     height: $alto;
     background-image: url(../multimedia/img/textiles-ropa-678x381-1.jpg);
