@@ -166,6 +166,12 @@ section{
 @media screen and (min-width: 375px) {
 
 .grid-container{
+        .flex-container{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
         grid-template-columns: repeat(2, auto);
         grid-template-areas:
                             "header header"
@@ -178,8 +184,14 @@ section{
 
 
  @media screen and (min-width: 768px) {
-
+     
     .grid-container{
+        .flex-container{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+        }
         grid-template-columns: repeat(3, auto);
         grid-template-areas: 
                             "header header header"
