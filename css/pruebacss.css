@@ -168,8 +168,8 @@ text-align: center;
 }
 
 .capa{
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
