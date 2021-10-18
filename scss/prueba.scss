@@ -30,14 +30,6 @@ header{
     height: 100px;
 }
 
-.titular{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    padding-top: 200px;
-}
-
 .multimedia{
     padding-top: 50px;
 }
@@ -145,7 +137,6 @@ section{
     grid-template-columns: 1, auto;
     grid-template-areas: 
                         "header"
-                        "titular"
                         "main"
                         "subtitulo"
                         "section"
@@ -154,10 +145,6 @@ section{
 
 .header{
     grid-area: header;
-}
-
-.titular{
-    grid-area: titular;
 }
 
 .principal {
@@ -182,7 +169,6 @@ section{
         grid-template-columns: repeat(2, auto);
         grid-template-areas:
                             "header header"
-                            "titular titular"
                             "main main"
                             "subtitulo subtitulo"
                             "section section"
@@ -197,7 +183,6 @@ section{
         grid-template-columns: repeat(3, auto);
         grid-template-areas: 
                             "header header header"
-                            "titular titular"
                             "main main main"
                             "subtitulo subtitulo subtitulo"
                             "section section section"
