@@ -151,3 +151,48 @@ display: flex;
 justify-content: center;
 text-align: center;
 }
+
+@keyframes banner{
+  0%, 20%{
+    background-image: url(../multimedia/img/1620577402_238845_1620577696_noticia_normal_recorte1.jpg);
+  }
+  25%, 45%{
+    background-image: url(../multimedia/img/el-buen-fin-2018-cuidado-con-el-perro-1280x720.jpg);
+  }
+  50%, 70%{
+    background-image: url(../multimedia/img/5face17cdfadf.jpeg);
+  }
+  75%, 100%{
+    background-image: url(../multimedia/img/33e0b68c-9156-4a40-b6ed-e24b111f21c9.jpg);
+  }
+}
+
+.capa{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.banner-title{
+  z-index: 1;
+  max-width: 550 px;
+  text-align: center;
+}
+
+.banner-title h1{
+  color: #ffff;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.banner-title a{
+  color: #ffff;
+  text-decoration: none;
+  background-color: #427ff1;
+  padding: 15px 35px;
+  display: inline-block;
+  border-radius: 50px;
+}
