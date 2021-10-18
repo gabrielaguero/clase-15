@@ -27,10 +27,10 @@ header {
   font-weight: 700;
   text-align: center;}
 
-  section{
+  .contenedor-flex{
     padding-top: 50px;
   }
-
+  
   section div p{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
