@@ -23,6 +23,9 @@ header {
 .contenedor-titulo {
   height: 100px; }
 
+.subtitulo {
+  height: 100px; }
+
 .titulo-secundario {
   height: 100px;
   font-family: 'Roboto', sans-serif;
