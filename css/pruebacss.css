@@ -23,9 +23,11 @@ header {
 .contenedor-titulo {
   height: 100px; }
 
+.subtitulo {
+  padding-bottom: 50px; }
+
 .multimedia {
-  padding-top: 100px;
-  z-index: 1; }
+  padding-top: 100px; }
 
 .titulo-secundario {
   height: 100px;
