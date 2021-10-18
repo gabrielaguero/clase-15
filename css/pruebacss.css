@@ -24,7 +24,9 @@ header {
   height: 100px; }
 
 .pages-title {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100px;
   padding-top: 200px; }
 
