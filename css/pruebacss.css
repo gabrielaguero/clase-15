@@ -23,7 +23,7 @@ header {
 .contenedor-titulo {
   height: 100px; }
 
-.pages-title {
+.titular {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,10 +101,13 @@ section div {
   display: grid;
   grid-template-rows: 1, 1fr;
   grid-template-columns: 1, auto;
-  grid-template-areas: "header" "main" "subtitulo" "section" "footer"; }
+  grid-template-areas: "header" "titular" "main" "subtitulo" "section" "footer"; }
 
 .header {
   grid-area: header; }
+
+.titular {
+  grid-area: titular; }
 
 .principal {
   grid-area: main; }
@@ -121,12 +124,12 @@ section div {
 @media screen and (min-width: 375px) {
   .grid-container {
     grid-template-columns: repeat(2, auto);
-    grid-template-areas: "header header" "main main" "subtitulo subtitulo" "section section" "footer footer"; } }
+    grid-template-areas: "header header" "titular titular" "main main" "subtitulo subtitulo" "section section" "footer footer"; } }
 
 @media screen and (min-width: 768px) {
   .grid-container {
     grid-template-columns: repeat(3, auto);
-    grid-template-areas: "header header header" "main main main" "subtitulo subtitulo subtitulo" "section section section" "footer footer footer"; } }
+    grid-template-areas: "header header header" "titular titular" "main main main" "subtitulo subtitulo subtitulo" "section section section" "footer footer footer"; } }
 
 /*=====================*/
 /*--ANIMACIONES--*/
