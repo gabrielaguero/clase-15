@@ -134,6 +134,7 @@ section{
     grid-template-areas: 
                         "header"
                         "main"
+                        "subtitulo"
                         "section"
                         "footer";
 }
@@ -161,6 +162,7 @@ section{
         grid-template-areas:
                             "header header"
                             "main main"
+                            "subtitulo subtitulo"
                             "section section"
                             "footer footer";
     }
@@ -174,6 +176,7 @@ section{
         grid-template-areas: 
                             "header header header"
                             "main main main"
+                            "subtitulo subtitulo subtitulo"
                             "section section section"
                             "footer footer footer";
     }
