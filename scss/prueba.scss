@@ -30,6 +30,11 @@ header{
     height: 100px;
   }
 
+.contenedor-titulo{
+    h2{
+        height: $alto;
+    }
+}
 
 .multimedia{
     padding-top: 50px;

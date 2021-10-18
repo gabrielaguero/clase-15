@@ -23,6 +23,9 @@ header {
 .contenedor-titulo {
   height: 100px; }
 
+.contenedor-titulo h2 {
+  height: 100px; }
+
 .multimedia {
   padding-top: 50px; }
 
