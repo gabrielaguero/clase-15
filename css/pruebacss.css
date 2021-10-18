@@ -26,6 +26,9 @@ header {
 .subtitulo {
   height: 100px; }
 
+.multimedia {
+  padding-top: 50px; }
+
 .titulo-secundario {
   height: 100px;
   font-family: 'Roboto', sans-serif;
