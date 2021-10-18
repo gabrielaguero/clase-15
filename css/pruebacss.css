@@ -23,11 +23,11 @@ header {
 .contenedor-titulo {
   height: 100px; }
 
-.subtitulo {
-  margin-bottom: 50px; }
+.title {
+  height: 100px; }
 
 .multimedia {
-  padding-top: 100px; }
+  padding-top: 50px; }
 
 .titulo-secundario {
   height: 100px;
