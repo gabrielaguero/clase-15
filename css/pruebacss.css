@@ -142,8 +142,8 @@ section div {
   background-color: #ee6e6e; }
 
 .banner{
-width: 100vw;
-height: 600vh;
+width: 600%;
+height: 100%;
 animation: banner 10s infinite linear alternate;
 background-size: 100% 100%;
 position: relative;
