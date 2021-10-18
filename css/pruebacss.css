@@ -21,6 +21,7 @@ header {
   text-align: center; }
 
 .titulo-secundario {
+  height: 100px;
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
   font-weight: 700;
@@ -125,10 +126,10 @@ section div {
 @keyframes promoción {
   50% {
     height: 50px;
-    background-color: #f37f7f; }
+    background-color: #ee6e6e; }
   100% {
     height: 100px;
-    background-color: #f37f7f; } }
+    background-color: #ee6e6e; } }
 
 .tabla tr:hover {
-  background-color: #534b4b; }
+  background-color: #ee6e6e; }
